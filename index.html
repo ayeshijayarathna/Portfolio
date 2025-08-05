@@ -13,7 +13,12 @@
     <nav>
         <div class="container">
             <a href="#" class="logo">Ayeshi I.Jayarathna</a>
-            <ul class="nav-links">
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
@@ -25,11 +30,10 @@
         </div>
     </nav>
 
- <section id="home" class="hero">
+    <section id="home" class="hero">
         <!-- Background Video -->
         <video autoplay muted loop playsinline class="hero-video">
             <source src="videos/1.mp4" type="video/mp4">
-            <!-- Fallback image if video doesn't load -->
         </video>
         
         <!-- Dark overlay for better text readability -->
@@ -37,7 +41,7 @@
         
         <div class="hero-content">
             <h1>Hello, I'm Ayeshi I. Jayarathna</h1>
-            <p> Software Engineering undergraduate | University of Plymouth</p>
+            <p>Software Engineering undergraduate | University of Plymouth</p>
             <a href="#about" class="cta-button">Get to Know Me</a>
         </div>
     </section>
@@ -50,13 +54,13 @@
                     <img src="images/1.jpg" alt="Profile Image" class="profile-image" />
                 </div>
                 <div class="about-text">
-                    <p>Welcome to my portfolio! I'm an enthusiastic undergraduate with a strong passion for technology and innovation. I’m particularly interested in roles such as Software Engineer, UI Designer, Project Manager, and Software Quality Engineer.</p>
+                    <p>Welcome to my portfolio! I'm an enthusiastic undergraduate with a strong passion for technology and innovation. I'm particularly interested in roles such as Software Engineer, UI Designer, Project Manager, and Software Quality Engineer.</p>
                     <p>My journey in tech began with a deep curiosity about how software works, which soon turned into a commitment to building impactful digital solutions. I'm constantly learning new tools and practices to grow across both technical and management domains.</p>
-                    <p>Whether it’s designing clean user interfaces, managing projects efficiently, writing robust code, or ensuring software quality.I enjoy taking on challenges that help me sharpen my skills and contribute meaningfully to any team.</p>
-
+                    <p>Whether it's designing clean user interfaces, managing projects efficiently, writing robust code, or ensuring software quality, I enjoy taking on challenges that help me sharpen my skills and contribute meaningfully to any team.</p>
                 </div>
             </div>
         </section>
+
         <section id="education">
             <h2 class="section-title">Education</h2>
             <div class="education-timeline">
@@ -66,14 +70,14 @@
                         <div class="education-degree">Bachelor of Science in Computer Science(Software Engineering)</div>
                         <div class="education-school">University of Plymouth,UK</div>
                         <div class="education-description">
-                            Curruntly undergraduate Stundent with Specialized in Software Engineering and Database Systems. 
+                            Currently undergraduate Student with Specialized in Software Engineering and Database Systems. 
                         </div>
                     </div>
                 </div>
                 <div class="education-item">
                     <div class="education-card">
                         <div class="education-year">2024 - 2026</div>
-                        <div class="education-degree">Higher Natinal Diploma in Project management</div>
+                        <div class="education-degree">Higher National Diploma in Project management</div>
                         <div class="education-school">SLIATE,Kegalle</div>
                         <div class="education-description">
                             Currently pursuing a comprehensive program focused on project planning, execution, team coordination, and risk management.
@@ -82,11 +86,11 @@
                 </div>
                 <div class="education-item">
                     <div class="education-card">
-                        <div class="education-year">Jan 2025 - march 2025</div>
+                        <div class="education-year">Jan 2025 - March 2025</div>
                         <div class="education-degree">Training course on Software Quality Assurance Using Test Automation Frameworks</div>
                         <div class="education-school">University of Colombo</div>
                         <div class="education-description">
-                            Gained hands-on experience in software testing techniques, including test case design, automated testing with Selenium,Appium,Postman and quality assurance practices aligned with industry standards.
+                            Gained hands-on experience in software testing techniques, including test case design, automated testing with Selenium, Appium, Postman and quality assurance practices aligned with industry standards.
                         </div>
                     </div>
                 </div>
@@ -100,46 +104,47 @@
                         </div>
                     </div>
                 </div>
-                 <div class="education-item">
+                <div class="education-item">
                     <div class="education-card">
                         <div class="education-year">2023 - 2024</div>
-                        <div class="education-degree">Diploma in English languadge</div>
+                        <div class="education-degree">Diploma in English language</div>
                         <div class="education-school">Esoft Metro Campus</div>
                         <div class="education-description">
                             Completed with Distinction pass & Developed strong communication skills through structured training in grammar, writing, speaking, and comprehension, enhancing both academic and professional English proficiency.
                         </div>
                     </div>
                 </div>
-                 <div class="education-item">
+                <div class="education-item">
                     <div class="education-card">
                         <div class="education-year">2022/23</div>
                         <div class="education-degree">Advanced Level (A/L)</div>
-                        <div class="education-school">Central College ,Kuliyapitiya</div>
+                        <div class="education-school">Central College, Kuliyapitiya</div>
                         <div class="education-description">
-                            Completed A/L with A,C,S passes in the Engineering Technology stream with distric rank 170 & Z-core:1.133 and selected government University called Gampha Wickramarachchi University of Indigenous Medicine. 
+                            Completed A/L with A,C,S passes in the Engineering Technology stream with district rank 170 & Z-core:1.133 and selected government University called Gampaha Wickramarachchi University of Indigenous Medicine. 
                         </div>
                     </div>
                 </div>
-                 <div class="education-item">
+                <div class="education-item">
                     <div class="education-card">
                         <div class="education-year">2019</div>
                         <div class="education-degree">Ordinary Level (O/L)</div>
-                        <div class="education-school">Vishkha Girls College,Kuliyapitiya</div>
+                        <div class="education-school">Vishaka Girls College, Kuliyapitiya</div>
                         <div class="education-description">
                             Completed Ordinary Level with 8As & 1B passes including Mathematics, Science, and English. 
                             Active Prefect of VGC Kuliyapitiya.
                         </div>
                     </div>
                 </div>
-                 <div class="education-item">
+                <div class="education-item">
                     <div class="education-card">
                         <div class="education-year">2014</div>
-                        <div class="education-degree">Compurt Certificate course</div>
+                        <div class="education-degree">Computer Certificate course</div>
                         <div class="education-school">Nenasala SriLanka</div>
                         <div class="education-description">
-                        Covered basic computer skills including Microsoft Office applications (Word, Excel, PowerPoint) and essential internet usage such as browsing, email communication, and online safety.
+                            Covered basic computer skills including Microsoft Office applications (Word, Excel, PowerPoint) and essential internet usage such as browsing, email communication, and online safety.
                         </div>
                     </div>
+                </div>
             </div>
         </section>
 
@@ -157,21 +162,21 @@
                         <span class="cert-skill-tag">Appium</span>
                         <span class="cert-skill-tag">Postman</span>
                     </div>
-                     <button class="view-cert-btn" data-pdf="certificates/QA.pdf">View Certificate</button>
+                    <button class="view-cert-btn" data-pdf="certificates/QA.pdf">View Certificate</button>
                 </div>
                 <div class="certification-card">
                     <div class="cert-icon">⚛️</div>
                     <div class="cert-title">Foundation of Project Management</div>
-                    <div class="cert-issuer">University of Moratuva</div>
+                    <div class="cert-issuer">University of Moratuwa</div>
                     <div class="cert-date">Issued: May 2025</div>
                     <div class="cert-skills">
                         <span class="cert-skill-tag">Project Management</span>
                         <span class="cert-skill-tag">Scope & Objectives</span>
                         <span class="cert-skill-tag">Planning & Controlling</span>
                         <span class="cert-skill-tag">Risk management</span>
-                        <span class="cert-skill-tag">Procument management</span>
+                        <span class="cert-skill-tag">Procurement management</span>
                     </div>
-                     <button class="view-cert-btn" data-pdf="aws-certified-developer.pdf">View Certificate</button>
+                    <button class="view-cert-btn" data-pdf="aws-certified-developer.pdf">View Certificate</button>
                 </div>
                 <div class="certification-card">
                     <div class="cert-icon">🐍</div>
@@ -184,7 +189,7 @@
                         <span class="cert-skill-tag">Scripting</span>
                         <span class="cert-skill-tag">Postman</span>
                     </div>
-                     <button class="view-cert-btn" data-pdf="certificates/postman.png">View Certificate</button>
+                    <button class="view-cert-btn" data-pdf="certificates/postman.png">View Certificate</button>
                 </div>
                 <div class="certification-card">
                     <div class="cert-icon">🚀</div>
@@ -195,10 +200,10 @@
                         <span class="cert-skill-tag">OOP</span>
                         <span class="cert-skill-tag">Java</span>
                         <span class="cert-skill-tag">Encapsulation</span>
-                        <span class="cert-skill-tag">Polimophisum</span>
+                        <span class="cert-skill-tag">Polymorphism</span>
                         <span class="cert-skill-tag">Inheritance</span>
                     </div>
-                     <button class="view-cert-btn" data-pdf="certificates/java.pdf">View Certificate</button>
+                    <button class="view-cert-btn" data-pdf="certificates/java.pdf">View Certificate</button>
                 </div>
                 <div class="certification-card">
                     <div class="cert-icon">🔒</div>
@@ -207,17 +212,17 @@
                     <div class="cert-date">Issued: May 2025</div>
                     <div class="cert-skills">
                         <span class="cert-skill-tag">Testing</span>
-                        <span class="cert-skill-tag">Datadriven Testing</span>
+                        <span class="cert-skill-tag">Data-driven Testing</span>
                         <span class="cert-skill-tag">TestNG</span>
                         <span class="cert-skill-tag">Automation Testing</span>
                     </div>
-                     <button class="view-cert-btn" data-pdf="certificates/tstng.pdf">View Certificate</button>
+                    <button class="view-cert-btn" data-pdf="certificates/tstng.pdf">View Certificate</button>
                 </div>
                 <div class="certification-card">
                     <div class="cert-icon">📊</div>
                     <div class="cert-title">UI/UX Design Skill Certificate</div>
-                    <div class="cert-issuer">CordersCave</div>
-                    <div class="cert-date">Issued: Auguest 2024</div>
+                    <div class="cert-issuer">CodersCave</div>
+                    <div class="cert-date">Issued: August 2024</div>
                     <div class="cert-skills">
                         <span class="cert-skill-tag">UI Design</span>
                         <span class="cert-skill-tag">Wireframes</span>
@@ -226,7 +231,6 @@
                     </div>
                     <button class="view-cert-btn" data-pdf="certificates/UIcorderscave.pdf">View Certificate</button>
                 </div>
-                 
             </div>
         </section>
 
@@ -260,7 +264,9 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image"> <img src="images/6.jpg" alt="Camply"></div>
+                    <div class="project-image">
+                        <img src="images/6.jpg" alt="Camply" />
+                    </div>
                     <div class="project-content">
                         <h3>Mobile App for campers called Camply</h3>
                         <p>Camply is a mobile application developed as a group for the Computing group project module. It is designed to help campers discover and explore camping locations, view available facilities, and communicate via an integrated chat feature. I contributed to designing and developing the Sign In and Sign Up pages, ensuring smooth user authentication and a clean, user-friendly interface.</p>
@@ -270,7 +276,9 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image"> <img src="images/3.jpg" alt="library management System"></div>
+                    <div class="project-image">
+                        <img src="images/3.jpg" alt="library management System" />
+                    </div>
                     <div class="project-content">
                         <h3>Software Development Project C#- Library Management System</h3>
                         <p>This is my first complete software development project using C# for a library management system called Sarasavi. And also I created main 8 sections, such as book registration, book details, User registration, User details, Issue book, Return book, complete details and Inquiries.</p>
@@ -280,40 +288,48 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image"> <img src="images/4.jpg" alt="Car Service System"></div>
+                    <div class="project-image">
+                        <img src="images/4.jpg" alt="Car Service System" />
+                    </div>
                     <div class="project-content">
                         <h3>Software Development Project -Car service management system</h3>
-                        <p>We created Car Service Management System as a group project.It was our first year c# course work. This is a solution for car service centers to manage vehicle records, maintain schedules, customer details and service histories resourcefully. 
-                          so I contributed to customer landing page and add customer detail page</p>
+                        <p>We created Car Service Management System as a group project. It was our first year c# course work. This is a solution for car service centers to manage vehicle records, maintain schedules, customer details and service histories resourcefully. 
+                          So I contributed to customer landing page and add customer detail page</p>
                         <div class="project-links">
                             <a href="https://github.com/adithyasemina/Project-Car.Service.Management.System.git" class="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
-                 <div class="project-card">
-                    <div class="project-image"> <img src="images/5.jpg" alt="Jewel-Aura"></div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/5.jpg" alt="Jewel-Aura" />
+                    </div>
                     <div class="project-content">
                         <h3>Website Called Jewel-Aura</h3>
                         <p>We created a website called Jewel-Aura as a group project and it was a great help web development experience and improving skills for us. So the main purpose of our website is gold buying and selling. Among the web pages I contributed for about us and Terms and Conditions pages.</p>
                         <div class="project-links">
-                            <a href="https://github.com/Achintha2722/Jewel-Aura.git " class="project-link">GitHub</a>
+                            <a href="https://github.com/Achintha2722/Jewel-Aura.git" class="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
-                 <div class="project-card">
-                    <div class="project-image"> <img src="images/7.jpg" alt="landing page"></div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/7.jpg" alt="landing page" />
+                    </div>
                     <div class="project-content">
                         <h3>Landing page for Assignment services company using HTML and CSS</h3>
-                        <p>AssignPro is a clean and responsive landing page created for an assignment services company using only HTML and CSS. The design highlights the company’s key services, showcases client testimonials, and includes a contact section for inquiries. The layout is optimized for both desktop and mobile devices to ensure a seamless user experience.</p>
+                        <p>AssignPro is a clean and responsive landing page created for an assignment services company using only HTML and CSS. The design highlights the company's key services, showcases client testimonials, and includes a contact section for inquiries. The layout is optimized for both desktop and mobile devices to ensure a seamless user experience.</p>
                         <div class="project-links">
                             <a href="https://github.com/ayeshijayarathna/Landing_page-Codsoft_Task2.git" class="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
-                 <div class="project-card">
-                    <div class="project-image"> <img src="images/8.jpg" alt="Calculater"></div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/8.jpg" alt="Calculator" />
+                    </div>
                     <div class="project-content">
-                        <h3>Basic Calculater using HTML,CSS,JAVASCRIPT</h3>
+                        <h3>Basic Calculator using HTML,CSS,JAVASCRIPT</h3>
                         <p>This is a simple calculator built using HTML, CSS, and JavaScript. It supports basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator features a clean, user-friendly interface with responsive buttons and real-time display updates. It's a great example of combining front-end technologies to create interactive web applications.</p>
                         <div class="project-links">
                             <a href="https://github.com/ayeshijayarathna/Calculater_Task3_Codsoft.git" class="project-link">GitHub</a>
@@ -323,30 +339,30 @@
             </div>
         </section>
 
-       <section id="contact">
-    <h2 class="section-title">Get In Touch</h2>
-    <div class="contact-content">
-        <p>I'm always interested in hearing about new opportunities and projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
-        <form class="contact-form" onsubmit="handleFormSubmit(event)">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="from_name" required>
+        <section id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in hearing about new opportunities and projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="from_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="reply_to" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
             </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="reply_to" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
-    </div>
-</section>
+        </section>
     </div>
 
-      <footer>
+    <footer>
         <div class="container">
             <div class="footer-content">
                 <!-- Location Section -->
@@ -376,7 +392,7 @@
                         </li>
                         <li>
                             <i class='bx bx-phone-call'></i>
-                            <a href="tel:+94771234567" style="color: inherit; text-decoration: none;">
+                            <a href="tel:+94765943102" style="color: inherit; text-decoration: none;">
                                 +94 76 5943102
                             </a>
                         </li>
