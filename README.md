@@ -1,4 +1,4 @@
-# 🌐 Ayeshi Jayarathna – Portfolio Website
+# 🌐 Ayeshi I. Jayarathna – My Personal Portfolio Website
 
 Welcome to my **personal portfolio website repository**!  
 Live Preview 👉 [ayeshijayarathna.github.io/Portfolio](https://ayeshijayarathna.github.io/Portfolio/)
